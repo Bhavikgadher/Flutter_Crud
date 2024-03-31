@@ -38,24 +38,28 @@ class _HomePageState extends State<HomePage> {
           children: [
             TextFormField(
               controller: bookNameTextController,
+              style: const TextStyle(color: Colors.white),
               decoration: const InputDecoration(
                   hintText: "BookName",
                   hintStyle: TextStyle(color: Colors.white)),
             ),
             TextFormField(
               controller: bookAuthorTextController,
+              style: const TextStyle(color: Colors.white),
               decoration: const InputDecoration(
                   hintText: "Book AuthorName",
                   hintStyle: TextStyle(color: Colors.white)),
             ),
             TextFormField(
               controller: bookGenreTextController,
+              style: const TextStyle(color: Colors.white),
               decoration: const InputDecoration(
                   hintText: "BookGenre",
                   hintStyle: TextStyle(color: Colors.white)),
             ),
             TextFormField(
               controller: bookAvailableCopiesTextController,
+              style: const TextStyle(color: Colors.white),
               decoration: const InputDecoration(
                   hintText: "AvailableBookCopies",
                   hintStyle: TextStyle(color: Colors.white)),

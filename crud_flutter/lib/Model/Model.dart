@@ -1,23 +1,17 @@
 class Model {
-  late String _bookID;
+  late String _bookId;
   late String _bookName;
   late String _bookAuthor;
   late String _bookGenre;
   late String _bookAvailableCopies;
-
-  String get bookID => _bookID;
-
-  set bookID(String value) {
-    _bookID = value;
-  }
-
-  String get bookName => _bookName;
 
   String get bookAvailableCopies => _bookAvailableCopies;
 
   set bookAvailableCopies(String value) {
     _bookAvailableCopies = value;
   }
+
+  String get bookName => _bookName;
 
   String get bookGenre => _bookGenre;
 
@@ -33,5 +27,11 @@ class Model {
 
   set bookName(String value) {
     _bookName = value;
+  }
+
+  String get bookId => _bookId;
+
+  set bookId(String value) {
+    _bookId = value;
   }
 }
